@@ -499,10 +499,6 @@ footer {
     .book {
         width: 50%;
     }
-    .books {
-        display: flex;
-        flex-direction: column;
-    }
 }
 
 /* media SML PHONES AND LARGE SMARTPHONES */
@@ -519,10 +515,6 @@ footer {
     }
     .highlight:not(:last-child) {
         margin-bottom: 24px;
-    }
-    .books {
-        display: flex;
-        flex-wrap: wrap;
     }
 }
 
