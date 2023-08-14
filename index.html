@@ -15,12 +15,12 @@
     <section id="landing">
       <nav>
         <div class="nav__container">
-          <img class="logo" src="./assets/assets/Library.svg" alt="" />
+          <img class="logo" src="./assets/Library.svg" alt="" />
           <ul class="nav__links">
             <li><a href="#" class="nav__link">Home</a></li>
-            <li><a href="#" class="nav__link">Contact</a></li>
+            <li><a href="#" class="nav__link nav__link--contact">Contact</a></li>
             <li>
-              <a href="#latest" class="nav__link nav__link--primary">Books</a>
+              <a href="./books.html" class="nav__link nav__link--primary">Books</a>
             </li>
           </ul>
         <button class="btn__menu" onclick="openMenu()">
@@ -33,7 +33,7 @@
 
           <ul class="menu__links">
             <li class="menu__list"><a href="#" class="menu__link" onclick="closeMenu()">Home</a></li>
-            <li class="menu__list"><a href="#latest" class="menu__link" onclick="closeMenu()">Books</a></li>
+            <li class="menu__list"><a href="./books.html" class="menu__link" onclick="closeMenu()">Books</a></li>
             <li class="menu__list">
               <a href="#" class="menu__link no-cursor" onclick="closeMenu()">Contact</a>
             </li>
@@ -41,6 +41,9 @@
         </div>
     </div>
       </nav>
+      
+
+      
 
       <header class="header__container">
         <div class="header__description">
@@ -51,7 +54,7 @@
           </h2>
           <a href="#latest"><button class="btn">Browse Books</button></a>
           <figure class="header__img--wrapper">
-            <img src="./assets/assets/undrawblue.svg" alt="" />
+            <img src="./assets/undrawblue.svg" alt="" />
           </figure>
         </div>
       </header>
@@ -101,16 +104,16 @@
         <div class="container">
           <div class="row">
             <h2 class="section__title">
-              Features <span class="text--purple">Books</span>
+              Featured <span class="text--purple">Books</span>
             </h2>
             <div class="books">
               <div class="book">
-                <figure class="book__img--wrapper">
+                <a href="books.html" class="book__img--wrapper">
                   <img
                     class="book__img"
-                    src="./assets/assets/atomic habits.jpg"
+                    src="./assets/atomic habits.jpg"
                     alt=""
-                  />
+                  /></a>
                 </figure>
                 <div class="book__title">
                   <h5>Atomic Habits</h5>
@@ -130,7 +133,7 @@
                 <figure class="book__img--wrapper">
                   <img
                     class="book__img"
-                    src="./assets/assets/deep work.jpeg"
+                    src="./assets/deep work.jpeg"
                     alt=""
                   />
                 </figure>
@@ -152,7 +155,7 @@
                 <figure class="book__img--wrapper">
                   <img
                     class="book__img"
-                    src="./assets/assets/book-1.jpeg"
+                    src="./assets/book-1.jpeg"
                     alt=""
                   />
                 </figure>
@@ -174,7 +177,7 @@
                 <figure class="book__img--wrapper">
                   <img
                     class="book__img"
-                    src="./assets/assets/david goggins.jpeg"
+                    src="./assets/david goggins.jpeg"
                     alt=""
                   />
                 </figure>
@@ -185,7 +188,8 @@
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star"></i>
-                  <i class="fas fa-star-half-alt"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
                 </div>
                 <div class="book__price">
                   <span class="book__price--normal">$29.99</span> $9.99
@@ -207,7 +211,7 @@
                 <figure class="book__img--wrapper">
                   <img
                     class="book__img"
-                    src="./assets/assets/book-8.jpeg"
+                    src="./assets/book-8.jpeg"
                     alt=""
                   />
                 </figure>
@@ -219,7 +223,7 @@
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star"></i>
-                  <i class="fas fa-star-half-alt"></i>
+                  <i class="fas fa-star"></i>
                 </div>
                 <div class="book__price">
                   <span class="book__price--normal">$14.99</span> $8.99
@@ -229,7 +233,7 @@
                 <figure class="book__img--wrapper">
                   <img
                     class="book__img"
-                    src="./assets/assets/book-7.jpg"
+                    src="./assets/book-7.jpg"
                     alt=""
                   />
                 </figure>
@@ -251,7 +255,7 @@
                 <figure class="book__img--wrapper">
                   <img
                     class="book__img"
-                    src="./assets/assets/book-6.jpeg"
+                    src="./assets/book-6.jpeg"
                     alt=""
                   />
                 </figure>
@@ -273,7 +277,7 @@
                 <figure class="book__img--wrapper">
                   <img
                     class="book__img"
-                    src="./assets/assets/book-5.jpeg"
+                    src="./assets/book-5.jpeg"
                     alt=""
                   />
                 </figure>
@@ -297,7 +301,7 @@
                 <figure class="book__img--wrapper">
                   <img
                     class="book__img"
-                    src="./assets/assets/book-4.jpeg"
+                    src="./assets/book-4.jpeg"
                     alt=""
                   />
                 </figure>
@@ -319,7 +323,7 @@
                 <figure class="book__img--wrapper">
                   <img
                     class="book__img"
-                    src="./assets/assets/book-3.jpeg"
+                    src="./assets/book-3.jpeg"
                     alt=""
                   />
                 </figure>
@@ -341,7 +345,7 @@
                 <figure class="book__img--wrapper">
                   <img
                     class="book__img"
-                    src="./assets/assets/book-2.jpeg"
+                    src="./assets/book-2.jpeg"
                     alt=""
                   />
                 </figure>
@@ -363,7 +367,7 @@
                 <figure class="book__img--wrapper">
                   <img
                     class="book__img"
-                    src="./assets/assets/crack the coding interview.png"
+                    src="./assets/crack the coding interview.png"
                     alt=""
                   />
                 </figure>
@@ -392,7 +396,7 @@
             <h2 class="section__title">
               Explore <span class="text--purple">Books</span>
             </h2>
-            <a href="#features">
+            <a href="./books.html">
               <button class="btn2">Browse books</button>
             </a>
           </div>
@@ -405,7 +409,7 @@
           <figure class="footer__logo">
             <img
               class="footer__logo--img"
-              src="./assets/assets/Library.svg"
+              src="./assets/Library.svg"
               alt=""
             />
           </figure>
